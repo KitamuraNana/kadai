@@ -10,4 +10,9 @@ test()
 myFunction()
 
 //kumikomi kansu-
-setTimeout(() => {console.log('hello') }, 3000)
+setTimeout(
+    () => {
+        console.log('hello')
+         },
+         3000
+         )
