@@ -2,7 +2,7 @@
 setTimeout(() => { console.log('HELLO') }, 6000)
 setTimeout(() => { console.log('BYE')}, 7000)
 
-
+//かいとう
 setTimeout(
     () =>{
         console.log('hello')
