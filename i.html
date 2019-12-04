@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+        body, label, span, button{
+            color: white;
+        }
+
+        body{
+            font-size: 24px;
+            color: gray;
+            font-weight: bold;
+            border: 5px dashed black;
+        }
+
+        label{
+            font-size: 24px;
+            font-weight: bold;
+            font-family: sans-serif;
+            background-color: blue;
+            
+        }
+
+        span{
+            font-size: 24px;
+            color: gray;
+            font-family: Times;
+            //googleFonts sankou
+            padding: 50px 50px 50px 50px;
+            margin: 50px;
+        }
+
+        button{
+            font-size: 24px;
+            color: white;
+            background-color: black;
+            border-radius: 8px; 
+
+        }
+
+        </style>
+    </head>
+    <body>
+    <label for="my-value"> 入力</label>
+     <input for="my-value" type="text" value=123 />
+     <button>実行</button>
+     <script>
+       const input = document.getElementById('my-value')
+        alert (input.value)
+    </body>
+</html> 
