@@ -1,8 +1,29 @@
+
 <html>
-    <body>
-    <h1>konnichihaa</h1>
-    <script>
-        alert(hello)
-    </script>
-    </body>
+<head>
+<style>
+button{
+    font-size: 20px
+}
+</style>
+</head>
+<body>
+    <button>get omikuji</button>
+    <script> //OMIKUJI WO TSUKUROU
+        const button = document.getElementById('button')
+        button.addEventListener('click' , () =>{
+            const num = Math.random() 
+            if(num < 0.5) {
+                alert(':D')
+            } else if (num < 0.7) {
+                alert(';D')
+            } else if (num < 0.9) {
+                alert('!!!')
+            } else {
+                alert('X(')
+            }
+            
+        })
+        alert
+</body>
 </html>
