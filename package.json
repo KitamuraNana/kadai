@@ -1,0 +1,24 @@
+{
+  "name": "kadai",
+  "version": "2.0.0",
+  "description": "",
+  "main": "Untitled.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KitamuraNana/kadai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KitamuraNana/kadai/issues"
+  },
+  "homepage": "https://github.com/KitamuraNana/kadai#readme"
+}
