@@ -1,29 +1,23 @@
-
 <html>
 <head>
 <style>
-button{
-    font-size: 20px
-}
+    button {
+        font-size: 50px;
+    }
 </style>
 </head>
 <body>
-    <button>get omikuji</button>
-    <script> //OMIKUJI WO TSUKUROU
+    <button id="button">おみくじをひく</button>
+    <script>
         const button = document.getElementById('button')
-        button.addEventListener('click' , () =>{
-            const num = Math.random() 
-            if(num < 0.5) {
-                alert('yay:D')
-            } else if (num < 0.7) {
-                alert('yaaay;D')
-            } else if (num < 0.9) {
-                alert('yaaaaaay!!!XD')
-            } else {
-                alert('X(')
-            }
-            
+        button.addEventListener('click', () => {
+            fetch('https://4000-f5003007-95f8-4826-9a8f-08f9c3f364cd.ws-ap01.gitpod.io/')
+                .then(res => res.text())
+                .then(data => alert(data))
         })
-        alert
+    </script>
 </body>
 </html>
+
+
+

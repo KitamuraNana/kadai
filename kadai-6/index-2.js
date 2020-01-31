@@ -26,6 +26,7 @@ console.log(JSON.parse(str1))
     //正しくは "abc"
 
     }   
+   
 
 //str3
     try {
